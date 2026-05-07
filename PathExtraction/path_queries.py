@@ -113,6 +113,94 @@ complex_queries = [
     }
 ]
 
+# ============================================================
+# Chinese FMEA KG queries (中文故障模式与影响分析知识图谱)
+# ============================================================
+
+cn_direct_queries = [
+    {   # Query CN-1: 系统 → 故障模式 → 故障起因
+        "query": """
+            MATCH (s:关注要素层次)-[:故障模式]->(m:故障模式)-[:故障起因]->(c:故障起因)
+            WHERE s.name IS NOT NULL AND m.name IS NOT NULL AND c.name IS NOT NULL
+            RETURN s.name AS system, m.name AS failure_mode, c.name AS cause,
+                   '故障起因' AS path_type
+        """,
+        "outfile": "cn_system_failure_cause",
+        "path_type": "direct",
+        "object_field": "cause",
+        "event_field": "failure_mode"
+    },
+    {   # Query CN-2: 故障模式 → 故障影响
+        "query": """
+            MATCH (m:故障模式)-[:故障影响]->(e:故障影响)
+            WHERE m.name IS NOT NULL AND e.name IS NOT NULL
+            RETURN m.name AS failure_mode, e.name AS effect,
+                   '故障影响' AS path_type
+        """,
+        "outfile": "cn_failure_effect",
+        "path_type": "direct",
+        "object_field": "effect",
+        "event_field": "failure_mode"
+    },
+    {   # Query CN-3: 系统 → 组件层次
+        "query": """
+            MATCH (s:关注要素层次)-[:下一低分析层次]->(c:下一低分析层次)
+            WHERE s.name IS NOT NULL AND c.name IS NOT NULL
+            OPTIONAL MATCH (c)-[:下一低层次功能]->(f:下一低层次功能)
+            RETURN s.name AS system, c.name AS component, f.name AS function,
+                   '组件层次' AS path_type
+        """,
+        "outfile": "cn_system_component",
+        "path_type": "direct",
+        "object_field": "component",
+        "event_field": "system"
+    },
+]
+
+cn_complex_queries = [
+    {   # Query CN-4: 系统 → 故障模式 → 全链路（起因+影响+预防+探测）
+        "query": """
+            MATCH (s:关注要素层次)-[:故障模式]->(m:故障模式)
+            WHERE s.name IS NOT NULL AND m.name IS NOT NULL
+            WITH s, m
+            OPTIONAL MATCH (m)-[:故障起因]->(c:故障起因)
+            WITH s, m, c
+            LIMIT 500
+            RETURN s.name AS system, m.name AS failure_mode,
+                   c.name AS cause, '全链路' AS path_type
+        """,
+        "outfile": "cn_full_chain",
+        "path_type": "complex",
+        "object_field": "system",
+        "event_field": "failure_mode"
+    },
+    {   # Query CN-5: 故障模式 → 预防控制措施 (用于纠正性维护)
+        "query": """
+            MATCH (m:故障模式)-[:预防控制措施]->(p:预防控制措施)
+            WHERE m.name IS NOT NULL AND p.name IS NOT NULL
+            RETURN m.name AS failure_mode, p.name AS prevention,
+                   '预防措施' AS path_type
+        """,
+        "outfile": "cn_prevention",
+        "path_type": "complex",
+        "object_field": "prevention",
+        "event_field": "failure_mode"
+    },
+    {   # Query CN-6: 功能 → 故障模式 (功能失效路径)
+        "query": """
+            MATCH (s:关注要素层次)-[:功能]->(f:功能)
+            MATCH (s)-[:故障模式]->(m:故障模式)
+            WHERE f.name IS NOT NULL AND m.name IS NOT NULL
+            RETURN s.name AS system, f.name AS function, m.name AS failure_mode,
+                   '功能失效' AS path_type
+        """,
+        "outfile": "cn_function_failure",
+        "path_type": "complex",
+        "object_field": "function",
+        "event_field": "failure_mode"
+    },
+]
+
 # Function to return recursive hasPart/contains PhysicalObjects
 def get_connect_objects(driver, entity):
     """ Return recursive hasPart/contains PhysicalObjects """

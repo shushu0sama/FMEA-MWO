@@ -7,6 +7,45 @@ DEEPSEEK_MODEL = "deepseek-v4-pro"
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 
+# Initialise list of Chinese prompt variants (hand-written, no API needed)
+def initialise_cn_prompts(num_variants=5, num_examples=5):
+    """ Return Chinese prompt variations for MWO generation. """
+
+    if num_examples == 1:
+        base_prompts = [
+            "根据以下设备故障信息，生成一条中文维护工单记录。",
+            "你是维修技师，用简洁专业的中文写一条维护工单。",
+            "为以下设备故障编写一条标准维护工单。",
+            "用技术性语言描述以下故障的维修处理。",
+            "写一条中文维护记录，包含故障现象和处理方式。",
+        ]
+    else:
+        base_prompts = [
+            f"根据以下设备故障信息，生成{num_examples}条不同的中文维护工单记录。",
+            f"你是维修技师，用简洁专业的中文写{num_examples}条维护工单。",
+            f"为以下设备故障编写{num_examples}条不同的标准维护工单。",
+            f"用技术性语言描述以下故障，生成{num_examples}条维修处理记录。",
+            f"写{num_examples}条中文维护记录，包含故障现象和处理方式。",
+        ]
+
+    limit_words = [
+        "语言简洁，每句不超过20个字。",
+        "避免冗长表述，控制在15-20字以内。",
+        "使用短句，每句不超过20个汉字。",
+        "简洁明了，20字以内。",
+        "限制每条工单20字以内，直接描述。",
+    ]
+
+    limit_count = [
+        "每条记录仅包含1-2句话。",
+        "不添加多余解释，直接描述故障和处理。",
+        "一条工单一句话即可，无需分段。",
+        "直接输出工单内容，不加其他说明。",
+        "一条故障对应一条工单，不要列举多种可能。",
+    ]
+
+    return (base_prompts[:num_variants], limit_words[:num_variants], limit_count[:num_variants])
+
 # Initialise list of prompt variants
 def initialise_prompts(openai, num_variants, num_examples):
     """ Initialise list of prompt variants. """
