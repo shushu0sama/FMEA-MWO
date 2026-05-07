@@ -1,0 +1,35 @@
+﻿关注要素层次,下一低分析层次,功能,故障模式,故障影响,故障起因,严重度(S),发生度(O),预防控制措施,探测控制措施,source
+AllRopePulleyPTO,Belt,,Deformation,3.0,Fatigue,1,4,,,Zenodo/AllRopePulleyPTO
+AllRopePulleyPTO,Pulley,,Deformation,3.0,Fatigue,2,3,,,Zenodo/AllRopePulleyPTO
+AllRopePulleyPTO,Rotary bearing unit,,Deformation,3.0,Fatigue,2,3,,,Zenodo/AllRopePulleyPTO
+AllRopePulleyPTO,Shaft,,Deformation,3.0,Fatigue,2,3,,,Zenodo/AllRopePulleyPTO
+AllBallScrewPTO,Screw nut assembly,,Deformation,3.0,Fatigue,3,3,,,Zenodo/AllBallScrewPTO
+AllBallScrewPTO,Gear,,Deformation,3.0,Fatigue,2,3,,,Zenodo/AllBallScrewPTO
+AllBallScrewPTO,Screw and rail assembly,,Deformation,3.0,Fatigue,2,3,,,Zenodo/AllBallScrewPTO
+AllBallScrewPTO,Shaft,,Deformation,3.0,Fatigue,2,3,,,Zenodo/AllBallScrewPTO
+AllRack&PinionPTO,Rotary bearing unit,,Deformation,3.0,Fatigue,2,3,,,Zenodo/AllRack&PinionPTO
+AllRack&PinionPTO,Gear,,Deformation,3.0,Fatigue,2,3,,,Zenodo/AllRack&PinionPTO
+AllRack&PinionPTO,Linear bearing unit,,Deformation,3.0,Fatigue,2,3,,,Zenodo/AllRack&PinionPTO
+AllRack&PinionPTO,Shaft,,Deformation,3.0,Fatigue,2,3,,,Zenodo/AllRack&PinionPTO
+AllRack&PinionPTO,Rail Assembly,,Deformation,3.0,Fatigue,3,3,,,Zenodo/AllRack&PinionPTO
+AllHydraulicPTO w Ele.Generat,Hydraulic linear actuator,,External Leakage,,Excessive Side Load,2,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+AllHydraulicPTO w Ele.Generat,Valves (general),,Abnormal instrument reading,,Clearance/alignment failure,2,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+AllHydraulicPTO w Ele.Generat,Filter,,Abnormal Instrument Reading,,Blocked/Plugged,2,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+AllHydraulicPTO w Ele.Generat,Manifold (connector & Valve isolation),,External leakage- Process medium,,Losseness,1,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+AllHydraulicPTO w Ele.Generat,Reciprocating pump,,Abnormal instrument reading,,Blockage/plugged,1,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+AllHydraulicPTO w Ele.Generat,Centrifugal Pump,,Abnormal instrument reading,,Blockage/plugged,1,5,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+AllHydraulicPTO w Ele.Generat,Piston Accumulator,,External Leakage,,Contamination,1,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+AllHydraulicPTO w Ele.Generat,Bladder Accumlator,,External Leakage,,Contamination,1,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+AllHydraulicPTO w Ele.Generat,Heat Exchanger (generic),,Abnormal instrument reading,,Blockage/plugged,3,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+AllHydraulicPTO w Ele.Generat,Generator-motor dirven,,Abnormal instrument reading,,Blockage/plugged,2,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+AllHydraulicPTO w Ele.Generat,Generator Trubine driven,,Abnormal instrument reading,,Blockage/plugged,3,5,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+All PowerTransmission & Control,Frequency Converter (HV),,Abnormal instrument reading,1.0,Blockage/plugged,2,4,,,Zenodo/All PowerTransmission & Control
+All PowerTransmission & Control,Switchgear (low voltage),,Faile to function as intended,2.0,Breakage,1,5,,,Zenodo/All PowerTransmission & Control
+All PowerTransmission & Control,Sensor,,Control/signal failure,2.0,Blockage,3,3,,,Zenodo/All PowerTransmission & Control
+All PowerTransmission & Control,Valve positioning sensor,,Control/signal failure,3.0,Blockage,2,4,,,Zenodo/All PowerTransmission & Control
+All PowerTransmission & Control,Programmable Logic Controller (PLC),,Fail to function on demand,2.0,Clearance/alignment failure,1,4,,,Zenodo/All PowerTransmission & Control
+AllReaction&Stationing,Fiber Rope,,Material Failure,3.0,Fatigue,3,4,,,Zenodo/AllReaction&Stationing
+AllReaction&Stationing,Chain,,Material Failure,3.0,Fatigue,3,5,,,Zenodo/AllReaction&Stationing
+AllReaction&Stationing,Joints & Connections,,Material Failure,3.0,Fatigue,3,4,,,Zenodo/AllReaction&Stationing
+AllReaction&Stationing,Floating Support Structure,,Instability,3.0,Fatigue,3,2,,,Zenodo/AllReaction&Stationing
+AllReaction&Stationing,Fixed Support Structure,,Loss of Support,3.0,Fatigue,5,2,,,Zenodo/AllReaction&Stationing

@@ -1,0 +1,35 @@
+﻿关注要素层次,下一低分析层次,功能,故障模式,故障影响,故障起因,严重度(S),发生度(O),预防控制措施,探测控制措施,source
+全绳轮动力输出,皮带,,变形,3.0,疲劳,1,4,,,Zenodo/AllRopePulleyPTO
+全绳轮动力输出,皮带轮,,变形,3.0,疲劳,2,3,,,Zenodo/AllRopePulleyPTO
+全绳轮动力输出,旋转轴承单元,,变形,3.0,疲劳,2,3,,,Zenodo/AllRopePulleyPTO
+全绳轮动力输出,轴,,变形,3.0,疲劳,2,3,,,Zenodo/AllRopePulleyPTO
+全滚珠丝杠动力输出,丝杠螺母组件,,变形,3.0,疲劳,3,3,,,Zenodo/AllBallScrewPTO
+全滚珠丝杠动力输出,齿轮,,变形,3.0,疲劳,2,3,,,Zenodo/AllBallScrewPTO
+全滚珠丝杠动力输出,丝杠与导轨组件,,变形,3.0,疲劳,2,3,,,Zenodo/AllBallScrewPTO
+全滚珠丝杠动力输出,轴,,变形,3.0,疲劳,2,3,,,Zenodo/AllBallScrewPTO
+全齿轮齿条动力输出,旋转轴承单元,,变形,3.0,疲劳,2,3,,,Zenodo/AllRack&PinionPTO
+全齿轮齿条动力输出,齿轮,,变形,3.0,疲劳,2,3,,,Zenodo/AllRack&PinionPTO
+全齿轮齿条动力输出,直线轴承单元,,变形,3.0,疲劳,2,3,,,Zenodo/AllRack&PinionPTO
+全齿轮齿条动力输出,轴,,变形,3.0,疲劳,2,3,,,Zenodo/AllRack&PinionPTO
+全齿轮齿条动力输出,导轨组件,,变形,3.0,疲劳,3,3,,,Zenodo/AllRack&PinionPTO
+全液压PTO（带发电机）,液压直线执行器,,外部泄漏,,过大侧向载荷,2,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+全液压PTO（带发电机）,阀门（通用）,,仪表读数异常,,间隙/对中失效,2,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+全液压PTO（带发电机）,过滤器,,仪表读数异常,,堵塞,2,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+全液压PTO（带发电机）,歧管（连接器及阀隔离）,,外部泄漏-工艺介质,,松动,1,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+全液压PTO（带发电机）,往复泵,,仪表读数异常,,堵塞,1,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+全液压PTO（带发电机）,离心泵,,仪表读数异常,,堵塞,1,5,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+全液压PTO（带发电机）,活塞式蓄能器,,外部泄漏,,污染,1,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+全液压PTO（带发电机）,气囊式蓄能器,,外部泄漏,,污染,1,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+全液压PTO（带发电机）,热交换器（通用）,,仪表读数异常,,堵塞,3,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+全液压PTO（带发电机）,发电机-电动机驱动,,仪表读数异常,,堵塞,2,4,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+全液压PTO（带发电机）,涡轮驱动发电机,,仪表读数异常,,堵塞,3,5,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+全部动力传动与控制,变频器（高压）,,仪表读数异常,1.0,堵塞,2,4,,,Zenodo/All PowerTransmission & Control
+全部动力传动与控制,低压开关柜,,无法按预期运行,2.0,断裂,1,5,,,Zenodo/All PowerTransmission & Control
+全部动力传动与控制,传感器,,控制/信号故障,2.0,堵塞,3,3,,,Zenodo/All PowerTransmission & Control
+全部动力传动与控制,阀门定位传感器,,控制/信号故障,3.0,堵塞,2,4,,,Zenodo/All PowerTransmission & Control
+全部动力传动与控制,可编程逻辑控制器,,需求时功能失效,2.0,间隙/对中失效,1,4,,,Zenodo/All PowerTransmission & Control
+全部反应与站位,纤维绳,,材料失效,3.0,疲劳,3,4,,,Zenodo/AllReaction&Stationing
+全部反应与站位,链条,,材料失效,3.0,疲劳,3,5,,,Zenodo/AllReaction&Stationing
+全部反应与站位,接头与连接,,材料失效,3.0,疲劳,3,4,,,Zenodo/AllReaction&Stationing
+全部反应与站位,浮动支撑结构,,失稳,3.0,疲劳,3,2,,,Zenodo/AllReaction&Stationing
+全部反应与站位,固定支撑结构,,支撑失效,3.0,疲劳,5,2,,,Zenodo/AllReaction&Stationing

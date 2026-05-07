@@ -1,6 +1,8 @@
 # Generating Authentic Grounded Synthetic Maintenance Work Orders (MWOs)
 
 This repository contains the data, data analysis, code, and documentation for the paper titled "Generating Authentic Grounded Synthetic Maintenance Work Orders (MWOs)" submitted to IEEE Access. The project aims to generate synthetic MWOs that are grounded in real-world data and authentic to the domain of maintenance engineering. 
+
+**Note:** This fork has been modified to use **DeepSeek V4 Pro** (`deepseek-v4-pro`) instead of GPT-4o mini.
 ## Table of Contents
 
 1. [Overview](#overview)
@@ -15,7 +17,7 @@ This repository contains the data, data analysis, code, and documentation for th
 
 ## Overview
 
-Maintenance Work Orders (MWOs) are technical short texts documenting equipment conditions and failures, often containing confidential data, making real-world datasets scarce for machine learning. To address this, this research generates synthetic MWO sentences using a graph database to query equipment-failure relationships and Large Language Models (GPT-4o mini). The generated data mimics real MWOs by incorporating industry-specific jargon and grammar. 
+Maintenance Work Orders (MWOs) are technical short texts documenting equipment conditions and failures, often containing confidential data, making real-world datasets scarce for machine learning. To address this, this research generates synthetic MWO sentences using a graph database to query equipment-failure relationships and Large Language Models (DeepSeek V4). The generated data mimics real MWOs by incorporating industry-specific jargon and grammar. 
 
 ## Datasets
 
@@ -86,9 +88,9 @@ The code for generating synthetic MWO sentences using LLM can be found in the [`
 
 1. Create a `.env` file in the root directory and add the following environment variables:
 ```bash
-API_KEY="your_openai_api_key"
+API_KEY="your_deepseek_api_key"
 ```
-2. Run `python llm_generate.py` to generate synthetic MWO sentences using GPT-4o mini.
+2. Run `python llm_generate.py` to generate synthetic MWO sentences using DeepSeek V4.
 - Function used to generate synthetic MWO sentences: `generate_mwo()` and `generate_diverse_mwo()`
 - Generated synthetic MWO sentences are stored in the [`mwo_sentences`](https://github.com/nlp-tlp/Hons24_AllisonLau/blob/main/Generate/mwo_sentences) directory. There is a log file (`log.txt`) detailing the given equipment + failure mode and the generated sentences. There is also a csv file (`order_synthetic.csv`) containing just the generated synthetic MWO sentences.
 - You can alter the number of path samples by changing the `num_samples` parameter in `get_samples()` function. You can also choose to exclude certain path types by including their path names (json file) in the `exclude` list in `get_samples()` function.

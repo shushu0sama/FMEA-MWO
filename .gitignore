@@ -1,1 +1,5 @@
 .env
+__pycache__/
+*.pyc
+data/external/nhtsa_complaints.zip
+data/external/AMPEL360-AIR-T/

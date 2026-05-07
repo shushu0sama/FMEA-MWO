@@ -1,0 +1,184 @@
+﻿关注要素层次,下一低分析层次,上一高层次功能及要求,功能,下一低层次功能,故障影响,严重度(S),故障模式,故障起因,发生度(O),探测度(D),预防控制措施,探测控制措施,source
+Rope & Pulley PTO,Belt,满足系统持续运行要求,,,3.0,1,Deformation,Fatigue,4,2,,,Zenodo/AllRopePulleyPTO
+Rope & Pulley PTO,Belt,满足系统持续运行要求,,,3.0,1,Fracture/Separation,Wear,4,2,,,Zenodo/AllRopePulleyPTO
+Rope & Pulley PTO,Belt,满足系统持续运行要求,,,2.0,1,Surface Damage,Creep,5,2,,,Zenodo/AllRopePulleyPTO
+Rope & Pulley PTO,Pulley,满足系统持续运行要求,,,3.0,2,Deformation,Fatigue,3,2,,,Zenodo/AllRopePulleyPTO
+Rope & Pulley PTO,Pulley,满足系统持续运行要求,,,3.0,2,Fracture/Separation,Wear,3,2,,,Zenodo/AllRopePulleyPTO
+Rope & Pulley PTO,Pulley,满足系统持续运行要求,,,2.0,2,Surface Damage,Misalignment,4,2,,,Zenodo/AllRopePulleyPTO
+Rope & Pulley PTO,Rotary bearing unit,满足系统持续运行要求,,,3.0,2,Deformation,Fatigue,3,2,,,Zenodo/AllRopePulleyPTO
+Rope & Pulley PTO,Rotary bearing unit,满足系统持续运行要求,,,3.0,2,Fracture/Separation,Wear,3,2,,,Zenodo/AllRopePulleyPTO
+Rope & Pulley PTO,Rotary bearing unit,满足系统持续运行要求,,,2.0,2,Surface Damage,Misalignment,4,2,,,Zenodo/AllRopePulleyPTO
+Rope & Pulley PTO,Shaft,满足系统持续运行要求,,,3.0,2,Deformation,Fatigue,3,2,,,Zenodo/AllRopePulleyPTO
+Rope & Pulley PTO,Shaft,满足系统持续运行要求,,,3.0,2,Fracture/Separation,Wear,3,2,,,Zenodo/AllRopePulleyPTO
+Rope & Pulley PTO,Shaft,满足系统持续运行要求,,,2.0,2,Surface Damage,Misalignment,3,2,,,Zenodo/AllRopePulleyPTO
+Ball Screw PTO,Screw nut assembly,满足系统持续运行要求,,,3.0,3,Deformation,Fatigue,3,2,,,Zenodo/AllBallScrewPTO
+Ball Screw PTO,Screw nut assembly,满足系统持续运行要求,,,3.0,3,Fracture/Separation,Wear,4,2,,,Zenodo/AllBallScrewPTO
+Ball Screw PTO,Screw nut assembly,满足系统持续运行要求,,,2.0,3,Surface Damage,Misalignment,4,2,,,Zenodo/AllBallScrewPTO
+Ball Screw PTO,Gear,满足系统持续运行要求,,,3.0,2,Deformation,Fatigue,3,2,,,Zenodo/AllBallScrewPTO
+Ball Screw PTO,Gear,满足系统持续运行要求,,,3.0,2,Fracture/Separation,Wear,4,2,,,Zenodo/AllBallScrewPTO
+Ball Screw PTO,Gear,满足系统持续运行要求,,,2.0,2,Surface Damage,Misalignment,4,2,,,Zenodo/AllBallScrewPTO
+Ball Screw PTO,Screw and rail assembly,满足系统持续运行要求,,,3.0,2,Deformation,Fatigue,3,2,,,Zenodo/AllBallScrewPTO
+Ball Screw PTO,Screw and rail assembly,满足系统持续运行要求,,,3.0,2,Fracture/Separation,Wear,3,2,,,Zenodo/AllBallScrewPTO
+Ball Screw PTO,Screw and rail assembly,满足系统持续运行要求,,,2.0,2,Surface Damage,Misalignment,4,2,,,Zenodo/AllBallScrewPTO
+Ball Screw PTO,Shaft,满足系统持续运行要求,,,3.0,2,Deformation,Fatigue,3,2,,,Zenodo/AllBallScrewPTO
+Ball Screw PTO,Shaft,满足系统持续运行要求,,,3.0,2,Fracture/Separation,Wear,3,2,,,Zenodo/AllBallScrewPTO
+Ball Screw PTO,Shaft,满足系统持续运行要求,,,2.0,2,Surface Damage,Misalignment,3,2,,,Zenodo/AllBallScrewPTO
+Rack & Pinion PTO,Rotary bearing unit,满足系统持续运行要求,,,3.0,2,Deformation,Fatigue,3,2,,,Zenodo/AllRack&PinionPTO
+Rack & Pinion PTO,Rotary bearing unit,满足系统持续运行要求,,,3.0,2,Fracture/Separation,Wear,3,2,,,Zenodo/AllRack&PinionPTO
+Rack & Pinion PTO,Rotary bearing unit,满足系统持续运行要求,,,2.0,2,Surface Damage,Misalignment,4,2,,,Zenodo/AllRack&PinionPTO
+Rack & Pinion PTO,Gear,满足系统持续运行要求,,,3.0,2,Deformation,Fatigue,3,2,,,Zenodo/AllRack&PinionPTO
+Rack & Pinion PTO,Gear,满足系统持续运行要求,,,3.0,2,Fracture/Separation,Wear,4,2,,,Zenodo/AllRack&PinionPTO
+Rack & Pinion PTO,Gear,满足系统持续运行要求,,,2.0,2,Surface Damage,Misalignment,4,2,,,Zenodo/AllRack&PinionPTO
+Rack & Pinion PTO,Linear bearing unit,满足系统持续运行要求,,,3.0,2,Deformation,Fatigue,3,2,,,Zenodo/AllRack&PinionPTO
+Rack & Pinion PTO,Linear bearing unit,满足系统持续运行要求,,,3.0,2,Fracture/Separation,Wear,3,2,,,Zenodo/AllRack&PinionPTO
+Rack & Pinion PTO,Linear bearing unit,满足系统持续运行要求,,,2.0,2,Surface Damage,Misalignment,4,2,,,Zenodo/AllRack&PinionPTO
+Rack & Pinion PTO,Shaft,满足系统持续运行要求,,,3.0,2,Deformation,Fatigue,3,2,,,Zenodo/AllRack&PinionPTO
+Rack & Pinion PTO,Shaft,满足系统持续运行要求,,,3.0,2,Fracture/Separation,Wear,3,2,,,Zenodo/AllRack&PinionPTO
+Rack & Pinion PTO,Shaft,满足系统持续运行要求,,,2.0,2,Surface Damage,Misalignment,3,2,,,Zenodo/AllRack&PinionPTO
+Rack & Pinion PTO,Rail Assembly,满足系统持续运行要求,,,3.0,3,Deformation,Fatigue,3,2,,,Zenodo/AllRack&PinionPTO
+Rack & Pinion PTO,Rail Assembly,满足系统持续运行要求,,,3.0,3,Fracture/Separation,Wear,4,2,,,Zenodo/AllRack&PinionPTO
+Rack & Pinion PTO,Rail Assembly,满足系统持续运行要求,,,2.0,3,Surface Damage,Misalignment,4,2,,,Zenodo/AllRack&PinionPTO
+HYDRAULIC PTO,Hydraulic linear actuator,满足系统持续运行要求,,,,2,External Leakage,Excessive Side Load,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Hydraulic linear actuator,满足系统持续运行要求,,,,2,Internal Leakage,Seals Failure,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Hydraulic linear actuator,满足系统持续运行要求,,,,2,Spurious Position Change,Rod Corrosion,3,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Hydraulic linear actuator,满足系统持续运行要求,,,,2,Jamming,Fatigue,3,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Hydraulic linear actuator,满足系统持续运行要求,,,,2,Aeration,Contamination,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Hydraulic linear actuator,满足系统持续运行要求,,,,2,Mechanical Failure,High Pressure,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Hydraulic linear actuator,满足系统持续运行要求,,,,2,Bearing Failure,,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Valves (general),满足系统持续运行要求,,,,2,Abnormal instrument reading,Clearance/alignment failure,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Valves (general),满足系统持续运行要求,,,,4,Delayed operation,Combined causes,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Valves (general),满足系统持续运行要求,,,,4,External leakage- Process medium,Contamination,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Valves (general),满足系统持续运行要求,,,,4,External leakage- utility medium,Control failure,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Valves (general),满足系统持续运行要求,,,,1,Fail to close on demand,Corrosion,3,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Valves (general),满足系统持续运行要求,,,,4,Fail to open on demand,Deformation,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Valves (general),满足系统持续运行要求,,,,1,Fail to regulate,Electrical failure-general,3,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Valves (general),满足系统持续运行要求,,,,4,Interal leakage,Faulty signal/indication/alarm,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Valves (general),满足系统持续运行要求,,,,3,Minor in-service problems,Instrument failure-genera,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Valves (general),满足系统持续运行要求,,,,3,other,Leakage,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Valves (general),满足系统持续运行要求,,,,2,Spurious operation,Losseness,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Valves (general),满足系统持续运行要求,,,,1,Structural deficiency,Material failure-general,3,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Valves (general),满足系统持续运行要求,,,,1,Unknown,Mechanical failure-general,3,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Valves (general),满足系统持续运行要求,,,,2,Valve leakage in closed position,Miscellaneous-general,3,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Filter,满足系统持续运行要求,,,,2,Abnormal Instrument Reading,Blocked/Plugged,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Filter,满足系统持续运行要求,,,,2,External Leakage,Material Failure,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Filter,满足系统持续运行要求,,,,2,Fail to Clean,Instrument Failure,5,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Manifold (connector & Valve isolation),满足系统持续运行要求,,,,1,External leakage- Process medium,Losseness,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Reciprocating pump,满足系统持续运行要求,,,,1,Abnormal instrument reading,Blockage/plugged,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Reciprocating pump,满足系统持续运行要求,,,,3,Breakdown,Breakage,5,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Reciprocating pump,满足系统持续运行要求,,,,2,Erratic output,Burst,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Reciprocating pump,满足系统持续运行要求,,,,3,External leakage-process,Clearance/alignment,5,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Reciprocating pump,满足系统持续运行要求,,,,3,Eternal leakage- Utility medium,Faulty signal/indication/alarm,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Reciprocating pump,满足系统持续运行要求,,,,3,Fail to star on demand,Leakage,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Reciprocating pump,满足系统持续运行要求,,,,3,Internal leakage,Losseness,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Reciprocating pump,满足系统持续运行要求,,,,2,Low output,Material failure-general,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Reciprocating pump,满足系统持续运行要求,,,,1,Minor in-service problems,Mechanical failure-general,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Reciprocating pump,满足系统持续运行要求,,,,2,Noise,Miscellaneous- general,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Reciprocating pump,满足系统持续运行要求,,,,2,other,No cause found,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Reciprocating pump,满足系统持续运行要求,,,,2,Parameter deviation,Other,5,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Reciprocating pump,满足系统持续运行要求,,,,3,Plugged/chocked,Overheating,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Reciprocating pump,满足系统持续运行要求,,,,3,Spurious stop,Unknown,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Reciprocating pump,满足系统持续运行要求,,,,2,Vibration,Vibration,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,Abnormal instrument reading,Blockage/plugged,5,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,2,Breakdown,Breakage,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,Erratic output,Cleanrance/alignment failure,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,External leakage-process,Contamination,5,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,External leakage- utility,Control failure,5,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,2,Fail to star on demand,Corrosion,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,Fail to stop,Erosion,3,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,2,High output,Faulty signal/indication/alarm,3,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,Internal leakage,Instrument failure-genral,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,Low output,Leakage,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,Minor in service problem,Looseness,5,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,Noise,Material failure-general,3,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,Overheating,Mechanical failure-general,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,Parameter deviatio,No signal/indication/alarm,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,Plugged/chocked,Out of adjustment,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,Spurious stop,Vibration,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,Structrual deficiency,Wear,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,Unknown,Other,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,2,Vibration,Unknown,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Centrifugal Pump,满足系统持续运行要求,,,,1,Other,,5,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Piston Accumulator,满足系统持续运行要求,,,,1,External Leakage,Contamination,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Piston Accumulator,满足系统持续运行要求,,,,1,Cylinder Damage,Wear,3,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Piston Accumulator,满足系统持续运行要求,,,,1,Pressure Loss,Corrosion,5,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Piston Accumulator,满足系统持续运行要求,,,,1,Gas & Oil Mixture,Piston Jammed,5,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Piston Accumulator,满足系统持续运行要求,,,,1,Breakdown,Jammed Valve,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Bladder Accumlator,满足系统持续运行要求,,,,1,External Leakage,Contamination,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Bladder Accumlator,满足系统持续运行要求,,,,1,Cylinder Damage,Wear,3,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Bladder Accumlator,满足系统持续运行要求,,,,1,Pressure Loss,Corrosion,5,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Bladder Accumlator,满足系统持续运行要求,,,,1,Gas & Oil Mixture,Failed Bladder,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Bladder Accumlator,满足系统持续运行要求,,,,1,Breakdown,Jammed Valve,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Heat Exchanger (generic),满足系统持续运行要求,,,,3,Abnormal instrument reading,Blockage/plugged,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Heat Exchanger (generic),满足系统持续运行要求,,,,4,External leakage process medium,Breakage,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Heat Exchanger (generic),满足系统持续运行要求,,,,3,External leage- utility medium,Control failure,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Heat Exchanger (generic),满足系统持续运行要求,,,,4,Insufficient heat transfer,Corrosion,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Heat Exchanger (generic),满足系统持续运行要求,,,,5,Internal leakage,Faulty signal/indication-general,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Heat Exchanger (generic),满足系统持续运行要求,,,,3,Parameter deviation,Instrument failure-general,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Heat Exchanger (generic),满足系统持续运行要求,,,,3,Plugged/Chocked,Leakage,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Heat Exchanger (generic),满足系统持续运行要求,,,,3,Structural deficiency,Losseness,3,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Heat Exchanger (generic),满足系统持续运行要求,,,,3,Minor in-service problems,Material failure-general,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+HYDRAULIC PTO,Heat Exchanger (generic),满足系统持续运行要求,,,,5,Other,Mechanical failure-general,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator-motor dirven,满足系统持续运行要求,,,,2,Abnormal instrument reading,Blockage/plugged,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator-motor dirven,满足系统持续运行要求,,,,2,External leakage Utility medium,Combined causes,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator-motor dirven,满足系统持续运行要求,,,,2,Fail to start on demand,Control failure,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator-motor dirven,满足系统持续运行要求,,,,2,Fail to stop on demand,Electrical failure-general,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator-motor dirven,满足系统持续运行要求,,,,3,Fail to synchronize,External influence-general,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator-motor dirven,满足系统持续运行要求,,,,2,Faulty output voltage,Faulty power/voltage,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator-motor dirven,满足系统持续运行要求,,,,2,Low output,Faulty signal/indication/alarm,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator-motor dirven,满足系统持续运行要求,,,,1,Minor in-service problems,Instrument failure-genera,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator-motor dirven,满足系统持续运行要求,,,,1,Other,Leakage,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator-motor dirven,满足系统持续运行要求,,,,1,Overheating,Mechanical failure-general,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator-motor dirven,满足系统持续运行要求,,,,1,Parameter deviation,No cause found,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator-motor dirven,满足系统持续运行要求,,,,1,Structural deficiency,No signal/indicaiton/alarm,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator-motor dirven,满足系统持续运行要求,,,,1,Unknown,Overheating,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator Trubine driven,满足系统持续运行要求,,,,3,Abnormal instrument reading,Blockage/plugged,5,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator Trubine driven,满足系统持续运行要求,,,,5,Breakage,Breakage,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator Trubine driven,满足系统持续运行要求,,,,4,External leakage utility medium,Caviation,5,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator Trubine driven,满足系统持续运行要求,,,,1,Fails to start on demand,Clearance/alighnement failure,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator Trubine driven,满足系统持续运行要求,,,,1,Fail to synchronize,Contamination,3,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator Trubine driven,满足系统持续运行要求,,,,3,Faulty output voltage,Control failure,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator Trubine driven,满足系统持续运行要求,,,,3,Minor in-service problems,Corrosion,5,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator Trubine driven,满足系统持续运行要求,,,,4,Other,Earth/isolation fault,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator Trubine driven,满足系统持续运行要求,,,,1,Overheating,Electrical failure-general,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator Trubine driven,满足系统持续运行要求,,,,3,Parameter deviation,Faulty power/voltage,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator Trubine driven,满足系统持续运行要求,,,,1,Spurious stop,Faulty signal/indication,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator Trubine driven,满足系统持续运行要求,,,,3,Structural deficiency,Instrument failure-general,4,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+Electric generator,Generator Trubine driven,满足系统持续运行要求,,,,1,Vibration,Leakage,3,2,,,Zenodo/ AllHydraulicPTO w Ele.Generat
+POWER TRANSMISSION & CONTROL,Frequency Converter (HV),满足系统持续运行要求,,,1.0,2,Abnormal instrument reading,Blockage/plugged,4,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Frequency Converter (HV),满足系统持续运行要求,,,3.0,1,Breakdown,Breakage,4,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Frequency Converter (HV),满足系统持续运行要求,,,3.0,1,External leakage- Utility medium,Combined causes,4,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Frequency Converter (HV),满足系统持续运行要求,,,2.0,1,Fail to function as intended,Contamination,4,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Frequency Converter (HV),满足系统持续运行要求,,,3.0,1,Fail to function on demand,Earth/isolation fault,4,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Frequency Converter (HV),满足系统持续运行要求,,,3.0,3,Fail to start on demand,Electrical failure- general,5,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Frequency Converter (HV),满足系统持续运行要求,,,2.0,1,Low output,Faulty signal/indication/alarm,5,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Frequency Converter (HV),满足系统持续运行要求,,,1.0,1,Minor in-service problems,Instrument failure- general,4,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Frequency Converter (HV),满足系统持续运行要求,,,3.0,1,Noise,Leakage,4,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Frequency Converter (HV),满足系统持续运行要求,,,2.0,1,Other,Looseness,4,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Frequency Converter (HV),满足系统持续运行要求,,,3.0,1,Overheating,Mechanical failure- general,4,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Frequency Converter (HV),满足系统持续运行要求,,,2.0,1,parameter deviation,No power/voltage,4,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Frequency Converter (HV),满足系统持续运行要求,,,3.0,1,Spurious stop,Open circuit,5,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Switchgear (low voltage),满足系统持续运行要求,,,2.0,1,Faile to function as intended,Breakage,5,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Switchgear (low voltage),满足系统持续运行要求,,,3.0,1,Fail to function on demand,Earth/isolaton fault,5,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Switchgear (low voltage),满足系统持续运行要求,,,2.0,2,Other,Electrical failure-general,5,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Switchgear (low voltage),满足系统持续运行要求,,,3.0,1,Sputious stop,Faulty signal/indication/alarm,5,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Sensor,满足系统持续运行要求,,,2.0,3,Control/signal failure,Blockage,3,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Sensor,满足系统持续运行要求,,,2.0,3,Erratic output,Control failure,3,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Sensor,满足系统持续运行要求,,,2.0,1,Fail to function on demand,Electricl failure-general,2,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Sensor,满足系统持续运行要求,,,2.0,1,Other,Faulty signal/indication/alamr,2,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Sensor,满足系统持续运行要求,,,,1,Spurious operation,Instrument failure-general,2,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Valve positioning sensor,满足系统持续运行要求,,,3.0,2,Control/signal failure,Blockage,4,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Valve positioning sensor,满足系统持续运行要求,,,2.0,3,Erratic output,Control failure,3,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Valve positioning sensor,满足系统持续运行要求,,,3.0,1,Plugged/chocked,Electrical failure-general,2,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Valve positioning sensor,满足系统持续运行要求,,,2.0,1,Spurious operation,Faulty signal/indication/alarm,2,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Programmable Logic Controller (PLC),满足系统持续运行要求,,,2.0,1,Fail to function on demand,Clearance/alignment failure,4,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Programmable Logic Controller (PLC),满足系统持续运行要求,,,2.0,1,Low output,Control failure,4,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Programmable Logic Controller (PLC),满足系统持续运行要求,,,1.0,1,Minor in-service problems,Earth/isolation fault,4,2,,,Zenodo/All PowerTransmission & Control
+POWER TRANSMISSION & CONTROL,Programmable Logic Controller (PLC),满足系统持续运行要求,,,2.0,1,Spurious operation,Fault power/voltage,4,2,,,Zenodo/All PowerTransmission & Control
+Reaction & Stationing,Fiber Rope,满足系统持续运行要求,,,3.0,3,Material Failure,Fatigue,4,2,,,Zenodo/AllReaction&Stationing
+Reaction & Stationing,Chain,满足系统持续运行要求,,,3.0,3,Material Failure,Fatigue,5,2,,,Zenodo/AllReaction&Stationing
+Reaction & Stationing,Joints & Connections,满足系统持续运行要求,,,3.0,3,Material Failure,Fatigue,4,2,,,Zenodo/AllReaction&Stationing
+Reaction & Stationing,Floating Support Structure,满足系统持续运行要求,,,3.0,3,Instability,Fatigue,2,2,,,Zenodo/AllReaction&Stationing
+Reaction & Stationing,Floating Support Structure,满足系统持续运行要求,,,2.0,3,Change in Bouyancy,Corrosion,2,2,,,Zenodo/AllReaction&Stationing
+Reaction & Stationing,Floating Support Structure,满足系统持续运行要求,,,2.0,2,Change in Hydrodynamic Properties,Wear,2,2,,,Zenodo/AllReaction&Stationing
+Reaction & Stationing,Floating Support Structure,满足系统持续运行要求,,,3.0,5,Loss of Support,Ultimate Limit State,3,2,,,Zenodo/AllReaction&Stationing
+Reaction & Stationing,Fixed Support Structure,满足系统持续运行要求,,,3.0,5,Loss of Support,Fatigue,2,2,,,Zenodo/AllReaction&Stationing

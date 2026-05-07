@@ -4,6 +4,8 @@ import csv
 import random
 import nltk
 from openai import OpenAI
+DEEPSEEK_BASE_URL = "https://api.deepseek.com"
+DEEPSEEK_MODEL = "deepseek-v4-pro"
 from dotenv import load_dotenv
 from nltk.corpus import cmudict
 from Levenshtein import distance as levenshtein_distance
@@ -208,7 +210,7 @@ def rule_introduce_typos(sentence, chance=0.05, max_typos=3):
 
     return ' '.join(words)
 
-# Introduce typos in a sentence using OpenAI GPT-4
+# Introduce typos in a sentence using DeepSeek V4
 def llm_introduce_typos(openai, sentence):
     # Chance for no typos
     if random.random() < 0.15:
@@ -228,7 +230,7 @@ def llm_introduce_typos(openai, sentence):
         f"Return the modified sentence and nothing else."
     )
     response = openai.chat.completions.create(
-        model="gpt-4o-mini",
+        model=DEEPSEEK_MODEL,
         messages=[{"role": "system", "content": "You are an expert in adding realistic typos to sentences."},
                   {"role": "user", "content": prompt}],
         temperature=0.9,
@@ -254,7 +256,7 @@ if __name__ == '__main__':
     # Load environment variables
     load_dotenv()
     api_key = os.getenv("API_KEY")
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=api_key, base_url=DEEPSEEK_BASE_URL)
     
     # Initialise global variables (dictionaries)
     current_dir = os.path.dirname(os.path.abspath("__file__"))

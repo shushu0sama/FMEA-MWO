@@ -2,6 +2,8 @@ import os
 import re
 import sys
 from openai import OpenAI
+DEEPSEEK_BASE_URL = "https://api.deepseek.com"
+DEEPSEEK_MODEL = "deepseek-v4-pro"
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
 
@@ -91,7 +93,7 @@ def paraphrase_prompt(openai, prompt, keywords=None, num_paraphrases=5):
         string_keywords = ", ".join(keywords)
         paraphrase_prompt += "Must include the following keywords: " + string_keywords
     response = openai.chat.completions.create(
-                    model="gpt-4o-mini",
+                    model=DEEPSEEK_MODEL,
                     messages=[
                             {"role": "system", "content": "You are a sentence paraphraser."},
                             {"role": "user", "content": paraphrase_prompt},
@@ -107,7 +109,7 @@ if __name__ == "__main__":
     # Set OpenAI API key
     load_dotenv()
     api_key = os.getenv("API_KEY")
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=api_key, base_url=DEEPSEEK_BASE_URL)
     
     # Test Paraphrase Instruction Prompt
     instruction = "The sentence can have a maximum of 8 words."

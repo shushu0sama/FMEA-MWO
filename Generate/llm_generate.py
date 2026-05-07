@@ -5,6 +5,8 @@ import csv
 import json
 import random
 from openai import OpenAI
+DEEPSEEK_BASE_URL = "https://api.deepseek.com"
+DEEPSEEK_MODEL = "deepseek-v4-pro"
 from dotenv import load_dotenv
 
 sys.path.append(os.path.abspath('../PathExtraction'))
@@ -95,7 +97,7 @@ def generate_mwo(client, prompt_variations, path):
     
     # Generate 1 completion for path (max 5 sentences)
     response = client.chat.completions.create(
-                    model="gpt-4o-mini",
+                    model=DEEPSEEK_MODEL,
                     messages=message,
                     temperature=0.9,
                     top_p=0.9,
@@ -122,7 +124,7 @@ def generate_diverse_mwo(client, prompt_variations, path):
     for _ in range(num):
         message = fewshot + [{"role": "user", "content": prompt}]
         response = client.chat.completions.create(
-                        model="gpt-4o-mini",
+                        model=DEEPSEEK_MODEL,
                         messages=message,
                         temperature=0.9,
                         top_p=0.9,
@@ -172,7 +174,7 @@ def paraphrase_mwo(client, sentence, keywords=None, num_paraphrases=5):
     paraphrase_prompt += "\nYou may change the sentence from passive to active voice or vice versa."
     paraphrase_prompt += "\nThe sentence can have a maximum of 8 words."
     response = client.chat.completions.create(
-                    model="gpt-4o-mini",
+                    model=DEEPSEEK_MODEL,
                     messages=[
                         {"role": "system", "content": "You are a sentence paraphraser."},
                         {"role": "user", "content": paraphrase_prompt},
@@ -188,7 +190,7 @@ if __name__ == "__main__":
     # Set OpenAI API key
     load_dotenv()
     api_key = os.getenv("API_KEY")
-    client = OpenAI(api_key=api_key)
+    client = OpenAI(api_key=api_key, base_url=DEEPSEEK_BASE_URL)
     out_logfile = "mwo_sentences/log.txt" # Log file for generated sentences (includes equipment + failure)
     out_csvfile = "mwo_sentences/order_synthetic.csv" # CSV file for generated sentences (just sentences)
 
